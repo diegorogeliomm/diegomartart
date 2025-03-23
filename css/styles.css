@@ -1,0 +1,128 @@
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#acerca {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#servicios {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#portafolio {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#portafolio img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#portafolio img:hover {
+    transform: scale(1.05);
+}
+
+#contacto {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.navbar-logo {
+    max-height: 50px; /* Ajusta este valor */
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.05);
+}
+.service-item {
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.service-item:hover {
+    background: rgba(0, 0, 0, 0.9);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+#servicios {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("../img/drawing.jpg") center/cover fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.service-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+} 
+.instagram-link {
+    color: #E1306C;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.instagram-link:hover {
+    color: #ffffff;
+    background-color: #E1306C;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.instagram-link i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
